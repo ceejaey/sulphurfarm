@@ -1,0 +1,201 @@
+<!-- Start Header Section -->
+<div class="page-header">
+    <div class="overlay">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1>{{post.title}}</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Header Section -->
+
+
+
+
+
+<!-- Start Blog Page Section -->
+<div class="container">
+    <div class="row">
+        
+        <!-- Start Blog Body Section -->
+        <div class="col-md-8 blog-body">
+            
+            <!-- Start Blog post -->
+            <div class="single-blog-post">
+                @if (post.featureImage) {
+                    <div class="post-img">
+                        <img src="images/blog/blog-02.jpg" class="img-responsive" alt="Blog image">
+                    </div>    
+                }
+                <h1 class="post-title"><a [routerLink]="'/blog/'+post.postId">{{post.title}}</a></h1>
+                <div class="post-meta">
+                    <ul class=" pull-left">
+                        <li><i class="fa fa-clock-o"></i>{{post.date | date}}</li>
+                        <li><i class="fa fa-user"></i><a href="#">{{post.author}}</a></li>
+                        <li><i class="fa fa-file"></i><a href="#">Blog</a></li>
+                        <li><i class="fa fa-tags"></i>
+                            @for (tag of post.tags; track tag) {
+                                <a href="#">{{tag}}</a> 
+                            }
+                        </li>
+                        <li><i class="fa fa-comments"></i><a href="#comments">{{post.comments.length}} Comments</a></li>
+                    </ul>
+                    <ul class="pull-right">
+                    </ul>
+                </div>
+                
+                <p class="post-content">{{post.detail}}</p>
+                <p class="post-content">Nulla facilisi. Integer lacinia sollicitudin massa. Cras metus. Sed aliquet risus a tortor. Integer id quam. Morbi mi. Quisque nisl felis, venenatis tristique, dignissim in, ultrices sit amet, augue. Proin sodales libero eget ante. Nulla quam. Aenean laoreet. Vestibulum nisi lectus, commodo ac, facilisis ac, ultricies eu, pede. Ut orci risus, accumsan porttitor, cursus quis, aliquet eget, justo.</p>
+                <p class="post-content">Quisque cursus, metus vitae pharetra auctor, sem massa mattis sem, at interdum magna augue eget diam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Morbi lacinia molestie dui. Praesent blandit dolor. Sed non quam. In vel mi sit amet augue congue elementum. Morbi in ipsum sit amet pede facilisis laoreet. Donec lacus nunc, viverra nec, blandit vel, egestas et, augue. Vestibulum tincidunt malesuada tellus. Ut ultrices ultrices enim. Curabitur sit amet mauris. Morbi in dui quis est pulvinar ullamcorper.</p>
+                <p class="post-content">Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nam nec ante. Sed lacinia, urna non tincidunt mattis, tortor neque adipiscing diam, a cursus ipsum ante quis turpis. Nulla facilisi. Ut fringilla. Suspendisse potenti. Nunc feugiat mi a tellus consequat imperdiet. Vestibulum sapien. Proin quam. Etiam ultrices. Suspendisse in justo eu magna luctus suscipit. Sed lectus. Integer euismod lacus luctus magna. </p>
+                <p class="post-content">Etiam maximus nibh mauris, vel vulputate ligula bibendum at. Vestibulum imperdiet mauris nunc, convallis consectetur risus semper ac. Aliquam at augue massa. Fusce ut venenatis lacus. Sed erat turpis, efficitur nec sodales quis, mattis vitae leo. Fusce tincidunt mattis ligula, et luctus eros viverra quis. Nunc eu lectus ac lectus sollicitudin mattis eget porttitor sem. Curabitur non luctus eros. Sed vel metus consequat, accumsan nisl in, ornare purus. Phasellus rutrum purus risus, efficitur vulputate urna tristique ac. </p>
+                <p class="post-content">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Suspendisse porttitor ex sed ligula tempus, ut sodales neque tristique. Morbi dignissim malesuada suscipit. Quisque id risus vel nisl gravida rutrum. Praesent euismod vitae lorem ut sollicitudin. Vestibulum mollis nisi sed ante faucibus, id semper ante placerat. Maecenas ante lacus, lacinia sit amet orci sit amet, congue vehicula sem. Praesent lacinia sollicitudin tincidunt. Pellentesque maximus aliquam tortor vel feugiat. Cras tempor ex nec laoreet sollicitudin. Donec congue pulvinar neque et fermentum. Cras sit amet euismod ligula. Proin efficitur orci eleifend viverra molestie. Duis mattis, lacus sed lobortis dapibus, eros nunc congue ante, eget facilisis magna turpis id nibh. Aenean lacinia nulla in egestas pellentesque. Suspendisse hendrerit scelerisque mauris id ultrices.</p>
+                <p class="post-content">Integer at lacus urna. Nulla commodo augue id efficitur mollis. Fusce diam tortor, aliquam in lobortis in, scelerisque at ante. Donec id nisi et nisl accumsan placerat. Integer eu mauris sed nisl rutrum laoreet. Ut mattis metus nec aliquet cursus. Vivamus id pulvinar ex. Ut eleifend augue sit amet quam egestas ullamcorper. Nullam aliquam eros dolor, et aliquam magna malesuada ut. Nullam efficitur nunc sit amet mauris mollis laoreet. Pellentesque scelerisque, risus in dapibus pellentesque, metus sem viverra arcu, a posuere tortor urna ac dui. Morbi eget ultrices lorem.</p>
+
+                <div class="item-content-footer">
+                    <ul>
+                        <li>Read 286 times</li>
+                        <li class="rating">
+                            Rate this item 
+                            <span class="active"><i class="fa fa-star-o"></i></span>
+                            <span class="active"><i class="fa fa-star-o"></i></span>
+                            <span class="active"><i class="fa fa-star-o"></i></span>
+                            <span><i class="fa fa-star-o"></i></span>
+                            <span><i class="fa fa-star-o"></i></span>
+                        </li>
+                    </ul>
+                </div>
+                
+            </div>
+            <!-- End Blog Post -->
+            
+            
+            <!-- Start Blog Author Section -->
+            <div class="blog-author">
+                <h3>About The Author</h3>
+                <div class="media">
+                    <div class="media-left">
+                        <a href="#">
+                            <img class="media-object" src="images/user.png" alt="...">
+                        </a>
+                    </div>
+                    <div class="media-body">
+                        <h4 class="media-heading"><a href="#">{{post.author}}</a></h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- End Blog Author Section -->
+            
+            <!-- Start Comments Section -->
+            <div id="comments">
+                <h2 class="comments-title">{{post.comments.length}} comment(s)</h2>
+                <ol class="comments-list">
+                    
+                    @for (comment of post.comments; track comment) {
+                        <li>
+                            <div class="comment-box clearfix">
+                                <div class="avatar"><img alt="" src="images/user-2.png"></div>
+                                <div class="comment-content">
+                                    <div class="comment-meta">
+                                        <span class="comment-by">{{comment.author}}</span>
+                                        <span class="reply-link pull-right"><a href="#">Comment Link</a></span>
+                                    </div>
+                                    <span class="comment-date">{{comment.date | date}}</span>
+                                    <p>{{comment.comment}}</p>
+                                </div>
+                            </div>
+                        </li>
+                    }
+                    @empty {
+                        <p>Be the first to add a comment!</p>
+                    }
+
+                    <!-- 
+                        <li>
+                        <div class="comment-box clearfix">
+                            <div class="avatar"><img alt="" src="images/user-2.png"></div>
+                            <div class="comment-content">
+                                <div class="comment-meta">
+                                    <span class="comment-by">sa</span>
+                                    <span class="reply-link pull-right"><a href="#">Comment Link</a></span>
+                                </div>
+                                <span class="comment-date">Tuesday, 03 February 2015 06:41</span>
+                                <p>daaass</p>
+                            </div>
+                        </div>
+                        
+                        <ul>
+                            <li>
+                                <div class="comment-box clearfix">
+                                    <div class="avatar"><img alt="" src="images/user-2.png"></div>
+                                    <div class="comment-content">
+                                        <div class="comment-meta">
+                                            <span class="comment-by">xc zc</span>
+                                            <span class="reply-link pull-right"><a href="#">Comment Link</a></span>
+                                        </div>
+                                        <span class="comment-date">Wednesday, 10 December 2014 11:42</span>
+                                        <p>fsfsfs</p>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </li> 
+                -->
+
+                </ol>
+                
+                <!-- Start Respond Form -->
+                <div id="respond">
+                    <h2 class="respond-title">Leave a comment</h2>
+                    <span class="form-caution">Make sure you enter the (*) required information where indicated. HTML code is not allowed.</span>
+                    <form action="#">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <label for="author">Name<span class="required">*</span></label>
+                                <input id="author" name="author" type="text" size="30" aria-required="true">
+                            </div>
+                            <div class="col-md-4">
+                                <label for="email">Email<span class="required">*</span></label>
+                                <input id="email" name="author" type="text" size="30" aria-required="true">
+                            </div>
+                            <div class="col-md-4">
+                                <label for="url">Website<span class="required">*</span></label>
+                                <input id="url" name="url" type="text" size="30" aria-required="true">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <label for="comment">Add Your Comment</label>
+                                <textarea id="comment" name="comment" cols="45" rows="8" aria-required="true"></textarea>
+                                <input name="submit" type="submit" id="submit" class="btn btn-primary" value="Submit Comment">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <!-- End Respond Form -->
+
+            </div>
+            <!-- End Comments Section -->
+            
+            
+            
+            
+        </div>
+        <!-- End Blog Body Section -->
+        
+        <!-- Start Sidebar Section -->
+        <div class="col-md-4 sidebar right-sidebar">
+            <app-recent-post></app-recent-post>
+            <app-blog-category></app-blog-category>
+            <app-tag-list></app-tag-list>
+        </div>
+        <!-- End Sidebar Section -->
+        
+    </div>
+</div>
+<!-- End Blog Page Section -->
+        

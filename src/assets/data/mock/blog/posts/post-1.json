@@ -1,0 +1,23 @@
+{
+    "postId": "1",
+    "title": "The Basics of Horse Care",
+    "date": "2024-01-10",
+    "author": "John Doe",
+    "synopsis": "Learn the essential tips for taking care of your horse.",
+    "detail": "Taking care of a horse involves feeding, grooming, and regular vet check-ups...",
+    "tags": ["horse care", "basics"],
+    "comments": [
+      {
+        "commentId": "1",
+        "date": "2024-01-11",
+        "author": "Jane Smith",
+        "comment": "Very informative, thanks!"
+      },
+      {
+        "commentId": "2",
+        "date": "2024-01-12",
+        "author": "Alice Johnson",
+        "comment": "I found this really helpful for my new horse."
+      }
+    ]
+  }

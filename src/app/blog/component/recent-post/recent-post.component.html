@@ -1,0 +1,30 @@
+<!-- Start Recent Post Widget -->
+<div class="widget widget-recent-post">
+                
+    <div class="section-heading-2">
+        <h3 class="section-title">
+            <span>Recent Post</span>
+        </h3>
+    </div>
+    
+    @for(post of posts; track post) {
+        <div class="media">
+            @if (post.featureImage) {
+                <div class="media-left">
+                    <a href="#">
+                        <img class="media-object" src="/assets/images/recent-post/post-02.jpg" alt="...">
+                    </a>
+                </div>    
+            }
+            <div class="media-body">
+                <h4 class="media-heading"><a [routerLink]="'/blog/'+post.postId">{{post.title}}</a></h4>
+                <ul>
+                    <li><a href="#">{{post.author}}</a>, </li>
+                    <li>{{post.date | date}}</li>
+                </ul>
+            </div>
+        </div>
+    }
+    
+</div>
+<!-- End Recent Post Widget -->

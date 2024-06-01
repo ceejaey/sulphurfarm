@@ -1,0 +1,127 @@
+[
+  {
+    "postId": "1",
+    "title": "The Basics of Horse Care",
+    "date": "2024-01-10",
+    "author": "John Doe",
+    "synopsis": "Taking care of a horse is a rewarding yet demanding responsibility. In this comprehensive guide, we delve into the fundamental aspects of horse care, from proper feeding routines to essential grooming practices and regular health check-ups. Whether you're a new horse owner or looking to brush up on your skills, this post will provide you with the necessary knowledge to ensure your horse thrives in a healthy and nurturing environment.",
+    "detail": "Taking care of a horse involves feeding, grooming, and regular vet check-ups...",
+    "tags": ["horse care", "basics"],
+    "comments": [
+      {
+        "commentId": "1",
+        "date": "2024-01-11",
+        "author": "Jane Smith",
+        "comment": "Very informative, thanks!"
+      },
+      {
+        "commentId": "2",
+        "date": "2024-01-12",
+        "author": "Alice Johnson",
+        "comment": "I found this really helpful for my new horse."
+      }
+    ]
+  },
+  {
+    "postId": "2",
+    "title": "Feeding Your Horse: Dos and Don'ts",
+    "date": "2024-01-15",
+    "author": "Emily Clark",
+    "synopsis": "A proper diet is crucial for your horse's health and well-being. In this article, we explore the dos and don'ts of feeding your horse, including the best types of feed, how to balance their diet, and common feeding mistakes to avoid. With expert tips and practical advice, you'll be equipped to provide your horse with the nutrition they need to stay healthy and happy.",
+    "detail": "Feeding your horse the right diet is crucial. Here are the dos and don'ts...",
+    "tags": ["horse care", "feeding"],
+    "comments": [
+      {
+        "commentId": "3",
+        "date": "2024-01-16",
+        "author": "Mike Brown",
+        "comment": "Great tips, I was doing some of this wrong!"
+      }
+    ]
+  },
+  {
+    "postId": "3",
+    "title": "Top 5 Breeds for Beginner Horse Owners",
+    "date": "2024-02-01",
+    "author": "Sarah Lee",
+    "synopsis": "Choosing the right horse breed is essential for a successful and enjoyable ownership experience, especially for beginners. In this post, we highlight the top five horse breeds that are ideal for new owners, considering factors like temperament, ease of care, and versatility. Learn about each breed's unique characteristics and find the perfect companion to start your equine journey.",
+    "detail": "For those new to horse ownership, here are the top 5 breeds to consider...",
+    "tags": ["horse breeds", "beginners"],
+    "comments": [
+      {
+        "commentId": "4",
+        "date": "2024-02-02",
+        "author": "Tom Green",
+        "comment": "I love my Quarter Horse, great recommendation."
+      }
+    ]
+  },
+  {
+    "postId": "4",
+    "title": "Common Health Issues in Horses",
+    "date": "2024-02-10",
+    "author": "Anna White",
+    "synopsis": "Horses, like all animals, can suffer from a variety of health issues. Early detection and treatment are key to keeping your horse healthy. In this post, we discuss common health problems in horses, including signs and symptoms to watch for and effective treatments. With this knowledge, you can better protect your horse's health and well-being.",
+    "detail": "Horses can suffer from various health issues. Here's what to look out for...",
+    "tags": ["horse health", "veterinary"],
+    "comments": [
+      {
+        "commentId": "5",
+        "date": "2024-02-11",
+        "author": "Lisa Black",
+        "comment": "This article helped me understand my horse's symptoms."
+      }
+    ]
+  },
+  {
+    "postId": "5",
+    "title": "Training Your Horse: Tips and Techniques",
+    "date": "2024-03-01",
+    "author": "David Harris",
+    "synopsis": "Effective training is crucial for developing a well-behaved and responsive horse. This post provides valuable tips and techniques for training your horse, from basic commands to advanced maneuvers. Whether you're training a young horse or refining an older horse's skills, these expert insights will help you achieve success and build a strong bond with your equine companion.",
+    "detail": "Training your horse requires patience and the right techniques. Here are some tips...",
+    "tags": ["horse training", "techniques"],
+    "comments": [
+      {
+        "commentId": "6",
+        "date": "2024-03-02",
+        "author": "Karen Thomas",
+        "comment": "These training tips really work!"
+      }
+    ]
+  },
+  {
+    "postId": "6",
+    "title": "Understanding Horse Behavior",
+    "date": "2024-03-10",
+    "author": "Jessica Wilson",
+    "synopsis": "Horses communicate through a range of behaviors, and understanding these can significantly enhance your relationship with your horse. In this article, we explore common horse behaviors, what they mean, and how you can respond to them effectively. By gaining insights into your horse's behavior, you can improve communication and create a more harmonious partnership.",
+    "detail": "Horses have unique behaviors that can tell you a lot about their mood and health...",
+    "tags": ["horse behavior", "understanding"],
+    "comments": [
+      {
+        "commentId": "7",
+        "date": "2024-03-11",
+        "author": "Rob Davis",
+        "comment": "This cleared up a lot of confusion for me, thanks!"
+      }
+    ]
+  },
+  {
+    "postId": "7",
+    "title": "The Importance of Regular Vet Visits",
+    "date": "2024-04-01",
+    "author": "Laura Young",
+    "synopsis": "Regular veterinary visits are essential for maintaining your horse's health and preventing potential issues. This post highlights the importance of routine check-ups, what to expect during a vet visit, and how to prepare your horse. By staying proactive with your horse's health care, you can ensure a long, healthy, and happy life for your equine friend.",
+    "detail": "Regular vet visits are essential for maintaining your horse's health...",
+    "tags": ["vet visits", "horse health"],
+    "comments": [
+      {
+        "commentId": "8",
+        "date": "2024-04-02",
+        "author": "Chris Hall",
+        "comment": "I need to be more consistent with this, great reminder."
+      }
+    ]
+  }
+]

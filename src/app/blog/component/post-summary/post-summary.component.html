@@ -1,0 +1,25 @@
+<!-- Start Blog post -->
+<div class="blog-post">
+    @if (post.featureImage) {
+    <div class="post-img">
+        <img src="/assets/images/blog/blog-02.jpg" class="img-responsive" alt="Blog image">
+    </div>
+    }
+    <h1 class="post-title"><a [routerLink]="'/blog/'+post.postId">{{post.title}}</a></h1>
+    
+    <ul class="post-meta">
+        <li><i class="fa fa-clock-o"></i>{{post.date | date}}</li>
+        <li><i class="fa fa-user"></i><a href="#">{{post.author}}</a></li>
+        <li><i class="fa fa-file"></i><a href="#">Blog</a></li>
+        <li><i class="fa fa-tags"></i>
+            @for (tag of post.tags; track tag) {
+                <a href="#">{{tag}}</a> 
+            }
+        </li>
+        <li><i class="fa fa-comments"></i><a href="#">{{post.commentCount}} Comments</a></li>
+    </ul>
+    
+    <p class="post-content">{{post.synopsis}}</p>
+    <a  [routerLink]="'/blog/'+post.postId" class="btn btn-primary readmore">Read more...<i class="fa fa-angle-right"></i></a>
+</div>
+<!-- End Blog post -->

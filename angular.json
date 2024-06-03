@@ -14,12 +14,18 @@
       "sourceRoot": "src",
       "prefix": "app",
       "i18n": {
-        "sourceLocale": "en-GB"
+        "sourceLocale": "en-GB",
+        "locales": {
+          "fr": {
+            "translation": "src/locale/source.fr-fr.json"
+          }
+        }
       },
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
+            "localize": true,
             "outputPath": "dist/sulphurfarm",
             "index": "src/index.html",
             "browser": "src/main.ts",

@@ -13,5 +13,5 @@ import { SiteCopyrightFooterComponent } from './site/component/site-copyright-fo
   styleUrl: './app.component.scss'
 })
 export class AppComponent {
-  title = 'translation';
+  title = 'suplhurfarm';
 }
